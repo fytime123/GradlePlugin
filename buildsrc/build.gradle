@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+
+dependencies {
+    //gradle sdk
+    //groovy sdk
+    compile 'com.android.tools.build:gradle:2.2.2'
+    compile 'org.javassist:javassist:3.20.0-GA'
+}
+
+repositories {
+    jcenter()
+}
